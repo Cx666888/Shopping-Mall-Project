@@ -1,0 +1,41 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    gateway:
+#      routes:
+#        - id: item # ????id???????
+#          uri: lb://item-service # ????????lb???????????????????
+#          predicates: # ??????????????????????????????
+#            - Path=/items/**,/search/** # ??????????????
+#        - id: cart
+#          uri: lb://cart-service
+#          predicates:
+#            - Path=/carts/**
+#        - id: user
+#          uri: lb://user-service
+#          predicates:
+#            - Path=/users/**,/addresses/**
+#        - id: trade
+#          uri: lb://trade-service
+#          predicates:
+#            - Path=/orders/**
+#        - id: pay
+#          uri: lb://pay-service
+#          predicates:
+#            - Path=/pay-orders/**
+      default-filters:
+#        - AddRequestHeader=truth,chenxue is good
+        - PrintAny=1,2,3
+hm:
+  jwt:
+    location: classpath:hmall.jks
+    alias: hmall
+    password: hmall123
+    tokenTTL: 30m
+  auth:
+    excludePaths:
+      - /search/**
+      - /users/login
+      - /items/**
+      - /hi

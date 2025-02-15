@@ -1,0 +1,17 @@
+server:
+  port: 8081
+mybatis-plus:
+  configuration:
+    default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler
+  global-config:
+    db-config:
+      update-strategy: not_null
+      id-type: auto
+# keytool -genkeypair -alias hmall -keyalg RSA -keypass hmall123 -keystore hmall.jks -storepass hmall123
+hm:
+  swagger:
+    title: 黑马商城商品管理接口文档
+    description: "黑马商城商品管理接口文档"
+    package: com.hmall.item.controller
+  db:
+    database: hm-item

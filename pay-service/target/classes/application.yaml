@@ -1,0 +1,54 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: pay-service
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://${hm.db.host}:3308/hm-pay?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: ${hm.db.pw}
+  cloud:
+    nacos:
+      server-addr: 192.168.37.130:8848
+  rabbitmq:
+    host: 192.168.37.130 # 你的虚拟机IP
+    port: 5672 # 端口
+    virtual-host: cx # 虚拟主机
+    username: itheima # 用户名
+    password: 123321 # 密码
+mybatis-plus:
+  configuration:
+    default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler
+  global-config:
+    db-config:
+      update-strategy: not_null
+      id-type: auto
+logging:
+  level:
+    com.hmall: debug
+  pattern:
+    dateformat: HH:mm:ss:SSS
+  file:
+    path: "logs/${spring.application.name}"
+knife4j:
+  enable: true
+  openapi:
+    title: 黑马商城支付管理接口文档
+    description: "黑马商城支付管理接口文档"
+    email: zhanghuyi@itcast.cn
+    concat: 你大爷
+    url: https://www.itcast.cn
+    version: v1.0.0
+    group:
+      default:
+        group-name: default
+        api-rule: package
+        api-rule-resources:
+          - com.hmall.payservice.controller
+# keytool -genkeypair -alias hmall -keyalg RSA -keypass hmall123 -keystore hmall.jks -storepass hmall123
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp功能

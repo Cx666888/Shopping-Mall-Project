@@ -1,0 +1,19 @@
+server:
+  port: 8082
+# keytool -genkeypair -alias hmall -keyalg RSA -keypass hmall123 -keystore hmall.jks -storepass hmall123
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp功能
+hm:
+  db:
+    database: hm-cart
+  swagger:
+    title: 购物车服务接口文档
+    description: 购物车相关接口
+    package: com.hmall.cart.controller
+#spring:
+#  cloud:
+#    sentinel:
+#      transport:
+#        dashboard: localhost:8090
+#        http-method-specify: true # 开启请求方式前缀

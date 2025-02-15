@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cart-service/cart-service.iml" filepath="$PROJECT_DIR$/cart-service/cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hm-api/hm-api.iml" filepath="$PROJECT_DIR$/hm-api/hm-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hm-common/hm-common.iml" filepath="$PROJECT_DIR$/hm-common/hm-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hm-gateway/hm-gateway.iml" filepath="$PROJECT_DIR$/hm-gateway/hm-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmall.iml" filepath="$PROJECT_DIR$/hmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-service/item-service.iml" filepath="$PROJECT_DIR$/item-service/item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pay-service/pay-service.iml" filepath="$PROJECT_DIR$/pay-service/pay-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trade-service/trade-service.iml" filepath="$PROJECT_DIR$/trade-service/trade-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>
