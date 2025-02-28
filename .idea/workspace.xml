@@ -5,9 +5,147 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34adf7c2-a3b0-426a-95d0-70f394d202d1" name="Changes" comment="项目首次提交3">
-      <change afterPath="$PROJECT_DIR$/bug文档" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_8_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_high_level_client_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_geo_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_plugin_classloader_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_secure_sm_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_x_content_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_5_7_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_aggs_matrix_stats_client_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_mapper_extras_client_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_7_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hm-common/src/main/java/com/hmall/common/constants/ItemConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-02-11.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/gateway/spring.log.2025-02-11.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-11.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/search-service/spring.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/user-service/spring.log.2025-02-11.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/search-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/Controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/Mapper/SearchMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/Service/ISearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/Service/Impl/SreachServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/config/ElasticsearchTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/config/EsConnectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/domain/dto/ItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/domain/po/ItemDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/domain/query/ItemPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/domain/vo/CategoryAndBrandVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/listener/ItemEsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-service/src/main/resources/mapper/ISearchService.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2025_2_16_14_02_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2025_2_16_14_02__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/src/main/java/com/hmall/common/utils/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bug文档" beforeDir="false" afterPath="$PROJECT_DIR$/bug文档" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/mapper/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/resources/mapper/ISearchService.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/target/classes/mapper/CartMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/src/main/java/com/heima/hmapi/client/ItemClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/src/main/java/com/heima/hmapi/client/ItemClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-api/target/classes/com/heima/hmapi/client/ItemClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/hm-api/target/classes/com/heima/hmapi/client/ItemClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com.hmall.item/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/com.hmall.item/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/com.hmall.item/controller/SearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/mapper/ItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/mapper/ISearchService.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/target/classes/com/hmall/item/controller/SearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/target/classes/mapper/ItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cart-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-02-05.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-02-06.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-02-07.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-02-08.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-02-09.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-02-10.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gateway/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/gateway/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gateway/spring.log.2025-02-05.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gateway/spring.log.2025-02-06.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gateway/spring.log.2025-02-07.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gateway/spring.log.2025-02-08.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gateway/spring.log.2025-02-09.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gateway/spring.log.2025-02-10.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/item-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-05.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-06.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-07.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-08.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-09.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.10.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.11.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.12.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.13.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.14.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.15.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.2.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.3.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.4.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.5.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.6.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.7.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.8.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-10.9.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/pay-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-05.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-06.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-07.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-08.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-08.1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-08.2.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-08.3.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-09.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-09.1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-09.2.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-09.3.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-09.4.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-09.5.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-09.6.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-10.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log.2025-02-10.1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/user-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-02-05.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-02-06.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-02-07.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-02-08.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-02-09.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-02-10.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +155,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -45,11 +183,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://D:/maven/apache-maven-3.8.5/mvn_repo/org/springframework/spring-aop/5.3.27/spring-aop-5.3.27.jar!/org/springframework/aop/target/SingletonTargetSource.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/maven/apache-maven-3.8.5/mvn_repo/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.12.1/elasticsearch-rest-high-level-client-7.12.1.jar!/org/elasticsearch/client/RestHighLevelClient.class" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://D:/maven/apache-maven-3.8.5/mvn_repo/org/springframework/spring-messaging/5.3.27/spring-messaging-5.3.27.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.class" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/maven/apache-maven-3.8.5/mvn_repo/org/springframework/spring-aop/5.3.27/spring-aop-5.3.27.jar!/org/springframework/aop/framework/CglibAopProxy.class" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/maven/apache-maven-3.8.5/mvn_repo/org/springframework/spring-core/5.3.27/spring-core-5.3.27.jar!/org/springframework/cglib/proxy/MethodProxy.class" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/maven/apache-maven-3.8.5/mvn_repo/org/springframework/amqp/spring-rabbit/2.4.12/spring-rabbit-2.4.12.jar!/org/springframework/amqp/rabbit/listener/SimpleMessageListenerContainer.class" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/maven/apache-maven-3.8.5/mvn_repo/io/github/openfeign/feign-core/11.8/feign-core-11.8.jar!/feign/ReflectiveFeign.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/maven/apache-maven-3.8.5/mvn_repo/org/elasticsearch/elasticsearch/7.12.1/elasticsearch-7.12.1.jar!/org/elasticsearch/search/builder/SearchSourceBuilder.class" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://D:/maven/apache-maven-3.8.5/mvn_repo/org/springframework/amqp/spring-rabbit/2.4.12/spring-rabbit-2.4.12.jar!/org/springframework/amqp/rabbit/listener/adapter/MessagingMessageListenerAdapter.class" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/maven/apache-maven-3.8.5/mvn_repo/org/springframework/amqp/spring-rabbit/2.4.12/spring-rabbit-2.4.12.jar!/org/springframework/amqp/rabbit/listener/AbstractMessageListenerContainer.class" root0="SKIP_INSPECTION" />
   </component>
@@ -82,9 +222,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="20" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/search-service/src/main/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -94,16 +235,20 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hmall.searchservice.config" />
       <recent name="com.heima.hmapi.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\springcloud\hmall\search-service\src\main\resources" />
       <recent name="F:\springcloud\hmall\item-service\src\main\resources" />
       <recent name="F:\springcloud\hmall\hm-gateway\src\main\resources" />
       <recent name="F:\springcloud\hmall\hm-gateway\src\main\java\com\hmall\gateway" />
       <recent name="F:\springcloud\hmall\hm-gateway\src\main" />
-      <recent name="F:\springcloud\hmall\user-service\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\springcloud\hmall\item-service" />
@@ -113,11 +258,11 @@
       <recent name="F:\springcloud\hmall\item-service\com.hmall.item" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hmall.searchservice.domain.dto" />
+      <recent name="com.hmall.searchservice.domain.query" />
+      <recent name="com.hmall.item.constants" />
       <recent name="com.hmall.gateway.utils" />
       <recent name="com.hmall.item.controller" />
-      <recent name="com.heima.hmapi.dto" />
-      <recent name="com.hmall.payservice.service.impl" />
-      <recent name="com.hmall.payservice.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -195,6 +340,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="search-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.searchservice.SearchServiceApplication" />
+      <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+      <option name="VM_PARAMETERS" value="--add-opens=java.base/java.lang=ALL-UNNAMED" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TradeServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="trade-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.item.tradeservice.TradeServiceApplication" />
@@ -239,9 +394,9 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.HMallApplication" />
+      <item itemvalue="Spring Boot.ItemServiceApplication" />
       <item itemvalue="Spring Boot.CartServiceApplication" />
       <item itemvalue="Spring Boot.TradeServiceApplication" />
-      <item itemvalue="Spring Boot.ItemServiceApplication" />
       <item itemvalue="Spring Boot.ItemServiceApplication 2" />
       <item itemvalue="Spring Boot.HmApiApplication" />
       <item itemvalue="Spring Boot.UserServiceApplication" />
@@ -249,6 +404,7 @@
       <item itemvalue="Spring Boot.PayServiceApplication" />
       <item itemvalue="Spring Boot.UserServiceApplication (1)" />
       <item itemvalue="Spring Boot.TradeServiceApplication (1)" />
+      <item itemvalue="Spring Boot.SearchServiceApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -284,6 +440,11 @@
       <workItem from="1739082941371" duration="21710000" />
       <workItem from="1739553934589" duration="14540000" />
       <workItem from="1739599933214" duration="7213000" />
+      <workItem from="1739699772138" duration="2899000" />
+      <workItem from="1739890977998" duration="8373000" />
+      <workItem from="1740276938995" duration="37068000" />
+      <workItem from="1740595902471" duration="1221000" />
+      <workItem from="1740755527829" duration="278000" />
     </task>
     <task id="LOCAL-00001" summary="项目首次提交">
       <created>1739603698496</created>
