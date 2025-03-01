@@ -27,20 +27,6 @@ import java.io.IOException;
 @RequiredArgsConstructor
 public class SearchController {
     private final ISearchService iSearchService;
-
-    /*private final ItemClient itemClient;
-    private RestHighLevelClient client = new RestHighLevelClient(RestClient.builder(
-            HttpHost.create("http://192.168.37.130/:9200")
-    ));
-    @GetMapping({"id"})
-    public Item searchById(@PathVariable("id")Long id ) throws IOException {
-        GetRequest request = new GetRequest("items", id.toString());
-        GetResponse response = client.get(request, RequestOptions.DEFAULT);
-        String itemStr = response.getSourceAsString();
-        ItemDoc itemDoc = JSONUtil.toBean(itemStr, ItemDoc.class);
-        Item item = BeanUtil.copyProperties(itemDoc, Item.class);
-        return item;
-    }*/
     @ApiOperation("搜索商品")
     @GetMapping({"list"})
         public PageDTO<ItemDoc> search(ItemPageQuery query) throws IOException /*{
