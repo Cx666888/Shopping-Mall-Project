@@ -5,23 +5,197 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34adf7c2-a3b0-426a-95d0-70f394d202d1" name="Changes" comment="使用es完成商品搜索模块">
-      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/config/nacosBalanceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/CartServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/hmall/cart/CartServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-gateway/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-gateway/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cart-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cart-service/spring.log.2025-02-11.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/gateway/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/gateway/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gateway/spring.log.2025-02-11.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/hm-api/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/hm-api/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/hm-api/spring.log.2025-01-05.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/hm-api/spring.log.2025-01-06.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/hm-api/spring.log.2025-01-08.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/item-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/item-service/spring.log.2025-02-11.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pay-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/pay-service/spring.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/search-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/search-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/teade-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/teade-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/teade-service/spring.log.2025-01-12.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/teade-service/spring.log.2025-01-13.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/teade-service/spring.log.2025-01-14.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/teade-service/spring.log.2025-01-14.0486865908524000.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/trade-service/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-05.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-06.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-07.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.10.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.11.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.12.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.13.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.14.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.15.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.16.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.17.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.18.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.19.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.2.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.20.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.21.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.22.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.23.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.24.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.25.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.26.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.27.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.28.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.29.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.3.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.30.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.31.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.32.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.33.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.34.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.35.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.36.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.37.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.38.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.39.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.4.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.40.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.41.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.42.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.43.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.44.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.45.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.46.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.47.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.48.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.49.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.5.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.50.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.51.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.52.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.53.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.54.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.55.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.56.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.57.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.58.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.6.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.7.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.8.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-08.9.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.10.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.11.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.12.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.13.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.14.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.15.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.16.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.17.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.18.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.19.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.2.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.20.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.21.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.22.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.23.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.24.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.25.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.26.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.27.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.28.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.29.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.3.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.30.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.31.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.32.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.33.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.34.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.35.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.36.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.37.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.38.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.39.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.4.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.40.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.41.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.42.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.43.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.44.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.45.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.46.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.47.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.48.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.49.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.5.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.50.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.51.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.52.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.53.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.54.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.55.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.56.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.57.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.58.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.59.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.6.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.60.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.61.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.62.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.63.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.64.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.65.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.66.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.67.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.68.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.69.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.7.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.70.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.71.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.72.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.73.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.74.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.75.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.76.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.77.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.78.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.79.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.8.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.80.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.81.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.82.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.83.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.84.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.85.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.86.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-09.9.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-10.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-10.1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-10.2.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-10.3.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-10.4.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-10.5.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-10.6.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-10.7.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-10.8.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/trade-service/spring.log.2025-02-10.9.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/user-service/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user-service/spring.log.2025-02-11.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/Controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/Controller/SearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/Service/Impl/SreachServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/Service/Impl/SreachServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/config/ElasticsearchTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/config/ElasticsearchTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service/src/main/resources/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pay-service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/config/EsConnectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/config/EsConnectConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/listener/ItemEsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/src/main/java/com/hmall/searchservice/listener/ItemEsListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-service/src/main/resources/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/src/main/resources/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trade-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/trade-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,6 +497,7 @@
       <workItem from="1740755527829" duration="9052000" />
       <workItem from="1740822499562" duration="2524000" />
       <workItem from="1740831900796" duration="1518000" />
+      <workItem from="1740834928716" duration="367000" />
     </task>
     <task id="LOCAL-00001" summary="项目首次提交">
       <created>1739603698496</created>

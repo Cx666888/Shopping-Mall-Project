@@ -12,9 +12,9 @@ spring:
     password: ${hm.db.pw}
   cloud:
     nacos:
-      server-addr: 192.168.37.130:8848
+      server-addr: 192.168.37.***:8848
   rabbitmq:
-    host: 192.168.37.130 # 你的虚拟机IP
+    host: 192.168.37.*** # 你的虚拟机IP
     port: 5672 # 端口
     virtual-host: cx # 虚拟主机
     username: itheima # 用户名

@@ -4,17 +4,17 @@
 00:21:08:429  INFO 27032 --- [nacos-grpc-client-executor-377] com.alibaba.nacos.common.remote.client   : [98e06975-7b01-4001-87d4-78e5b5663c2a] Ack server push request, request = NotifySubscriberRequest, requestId = 427
 00:44:31:896  INFO 27032 --- [nacos-grpc-client-executor-728] com.alibaba.nacos.common.remote.client   : [98e06975-7b01-4001-87d4-78e5b5663c2a] Receive server push request, request = NotifySubscriberRequest, requestId = 433
 00:44:32:040  INFO 27032 --- [nacos-grpc-client-executor-728] com.alibaba.nacos.common.remote.client   : [98e06975-7b01-4001-87d4-78e5b5663c2a] Ack server push request, request = NotifySubscriberRequest, requestId = 433
-00:49:13:371  INFO 27032 --- [http-nio-8084-exec-2] i.seata.tm.api.DefaultGlobalTransaction  : Begin new global transaction [192.168.37.130:8099:45653078623307581]
-00:49:16:872  INFO 27032 --- [rpcDispatch_RMROLE_1_3_16] i.s.c.r.p.c.RmBranchRollbackProcessor    : rm handle branch rollback process:xid=192.168.37.130:8099:45653078623307581,branchId=45653078623307589,branchType=XA,resourceId=jdbc:mysql://192.168.37.130:3308/hm-trade,applicationData=null
-00:49:16:874  INFO 27032 --- [rpcDispatch_RMROLE_1_3_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacking: 192.168.37.130:8099:45653078623307581 45653078623307589 jdbc:mysql://192.168.37.130:3308/hm-trade
-00:49:16:880  INFO 27032 --- [rpcDispatch_RMROLE_1_3_16] i.s.rm.datasource.xa.ResourceManagerXA   : 192.168.37.130:8099:45653078623307581-45653078623307589 was rollbacked
+00:49:13:371  INFO 27032 --- [http-nio-8084-exec-2] i.seata.tm.api.DefaultGlobalTransaction  : Begin new global transaction [192.168.37.***:8099:45653078623307581]
+00:49:16:872  INFO 27032 --- [rpcDispatch_RMROLE_1_3_16] i.s.c.r.p.c.RmBranchRollbackProcessor    : rm handle branch rollback process:xid=192.168.37.***:8099:45653078623307581,branchId=45653078623307589,branchType=XA,resourceId=jdbc:mysql://192.168.37.***:3308/hm-trade,applicationData=null
+00:49:16:874  INFO 27032 --- [rpcDispatch_RMROLE_1_3_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacking: 192.168.37.***:8099:45653078623307581 45653078623307589 jdbc:mysql://192.168.37.***:3308/hm-trade
+00:49:16:880  INFO 27032 --- [rpcDispatch_RMROLE_1_3_16] i.s.rm.datasource.xa.ResourceManagerXA   : 192.168.37.***:8099:45653078623307581-45653078623307589 was rollbacked
 00:49:16:880  INFO 27032 --- [rpcDispatch_RMROLE_1_3_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacked result: PhaseTwo_Rollbacked
-00:49:16:895  INFO 27032 --- [rpcDispatch_RMROLE_1_4_16] i.s.c.r.p.c.RmBranchRollbackProcessor    : rm handle branch rollback process:xid=192.168.37.130:8099:45653078623307581,branchId=45653078623307587,branchType=XA,resourceId=jdbc:mysql://192.168.37.130:3308/hm-trade,applicationData=null
-00:49:16:895  INFO 27032 --- [rpcDispatch_RMROLE_1_4_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacking: 192.168.37.130:8099:45653078623307581 45653078623307587 jdbc:mysql://192.168.37.130:3308/hm-trade
-00:49:16:900  INFO 27032 --- [rpcDispatch_RMROLE_1_4_16] i.s.rm.datasource.xa.ResourceManagerXA   : 192.168.37.130:8099:45653078623307581-45653078623307587 was rollbacked
+00:49:16:895  INFO 27032 --- [rpcDispatch_RMROLE_1_4_16] i.s.c.r.p.c.RmBranchRollbackProcessor    : rm handle branch rollback process:xid=192.168.37.***:8099:45653078623307581,branchId=45653078623307587,branchType=XA,resourceId=jdbc:mysql://192.168.37.***:3308/hm-trade,applicationData=null
+00:49:16:895  INFO 27032 --- [rpcDispatch_RMROLE_1_4_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacking: 192.168.37.***:8099:45653078623307581 45653078623307587 jdbc:mysql://192.168.37.***:3308/hm-trade
+00:49:16:900  INFO 27032 --- [rpcDispatch_RMROLE_1_4_16] i.s.rm.datasource.xa.ResourceManagerXA   : 192.168.37.***:8099:45653078623307581-45653078623307587 was rollbacked
 00:49:16:900  INFO 27032 --- [rpcDispatch_RMROLE_1_4_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacked result: PhaseTwo_Rollbacked
-00:49:16:950  INFO 27032 --- [http-nio-8084-exec-2] i.seata.tm.api.DefaultGlobalTransaction  : Suspending current transaction, xid = 192.168.37.130:8099:45653078623307581
-00:49:16:953  INFO 27032 --- [http-nio-8084-exec-2] i.seata.tm.api.DefaultGlobalTransaction  : [192.168.37.130:8099:45653078623307581] rollback status: Rollbacked
+00:49:16:950  INFO 27032 --- [http-nio-8084-exec-2] i.seata.tm.api.DefaultGlobalTransaction  : Suspending current transaction, xid = 192.168.37.***:8099:45653078623307581
+00:49:16:953  INFO 27032 --- [http-nio-8084-exec-2] i.seata.tm.api.DefaultGlobalTransaction  : [192.168.37.***:8099:45653078623307581] rollback status: Rollbacked
 00:49:17:066 ERROR 27032 --- [http-nio-8084-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: 库存不足！] with root cause
 
 java.lang.RuntimeException: 库存不足！
@@ -82,17 +82,17 @@ java.lang.RuntimeException: 库存不足！
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
 	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
 
-00:54:26:818  INFO 27032 --- [http-nio-8084-exec-3] i.seata.tm.api.DefaultGlobalTransaction  : Begin new global transaction [192.168.37.130:8099:45653078623307726]
-00:54:27:760  INFO 27032 --- [rpcDispatch_RMROLE_1_5_16] i.s.c.r.p.c.RmBranchRollbackProcessor    : rm handle branch rollback process:xid=192.168.37.130:8099:45653078623307726,branchId=45653078623307732,branchType=XA,resourceId=jdbc:mysql://192.168.37.130:3308/hm-trade,applicationData=null
-00:54:27:762  INFO 27032 --- [rpcDispatch_RMROLE_1_5_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacking: 192.168.37.130:8099:45653078623307726 45653078623307732 jdbc:mysql://192.168.37.130:3308/hm-trade
-00:54:27:770  INFO 27032 --- [rpcDispatch_RMROLE_1_5_16] i.s.rm.datasource.xa.ResourceManagerXA   : 192.168.37.130:8099:45653078623307726-45653078623307732 was rollbacked
+00:54:26:818  INFO 27032 --- [http-nio-8084-exec-3] i.seata.tm.api.DefaultGlobalTransaction  : Begin new global transaction [192.168.37.***:8099:45653078623307726]
+00:54:27:760  INFO 27032 --- [rpcDispatch_RMROLE_1_5_16] i.s.c.r.p.c.RmBranchRollbackProcessor    : rm handle branch rollback process:xid=192.168.37.***:8099:45653078623307726,branchId=45653078623307732,branchType=XA,resourceId=jdbc:mysql://192.168.37.***:3308/hm-trade,applicationData=null
+00:54:27:762  INFO 27032 --- [rpcDispatch_RMROLE_1_5_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacking: 192.168.37.***:8099:45653078623307726 45653078623307732 jdbc:mysql://192.168.37.***:3308/hm-trade
+00:54:27:770  INFO 27032 --- [rpcDispatch_RMROLE_1_5_16] i.s.rm.datasource.xa.ResourceManagerXA   : 192.168.37.***:8099:45653078623307726-45653078623307732 was rollbacked
 00:54:27:770  INFO 27032 --- [rpcDispatch_RMROLE_1_5_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacked result: PhaseTwo_Rollbacked
-00:54:27:776  INFO 27032 --- [rpcDispatch_RMROLE_1_6_16] i.s.c.r.p.c.RmBranchRollbackProcessor    : rm handle branch rollback process:xid=192.168.37.130:8099:45653078623307726,branchId=45653078623307730,branchType=XA,resourceId=jdbc:mysql://192.168.37.130:3308/hm-trade,applicationData=null
-00:54:27:777  INFO 27032 --- [rpcDispatch_RMROLE_1_6_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacking: 192.168.37.130:8099:45653078623307726 45653078623307730 jdbc:mysql://192.168.37.130:3308/hm-trade
-00:54:27:780  INFO 27032 --- [rpcDispatch_RMROLE_1_6_16] i.s.rm.datasource.xa.ResourceManagerXA   : 192.168.37.130:8099:45653078623307726-45653078623307730 was rollbacked
+00:54:27:776  INFO 27032 --- [rpcDispatch_RMROLE_1_6_16] i.s.c.r.p.c.RmBranchRollbackProcessor    : rm handle branch rollback process:xid=192.168.37.***:8099:45653078623307726,branchId=45653078623307730,branchType=XA,resourceId=jdbc:mysql://192.168.37.***:3308/hm-trade,applicationData=null
+00:54:27:777  INFO 27032 --- [rpcDispatch_RMROLE_1_6_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacking: 192.168.37.***:8099:45653078623307726 45653078623307730 jdbc:mysql://192.168.37.***:3308/hm-trade
+00:54:27:780  INFO 27032 --- [rpcDispatch_RMROLE_1_6_16] i.s.rm.datasource.xa.ResourceManagerXA   : 192.168.37.***:8099:45653078623307726-45653078623307730 was rollbacked
 00:54:27:780  INFO 27032 --- [rpcDispatch_RMROLE_1_6_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacked result: PhaseTwo_Rollbacked
-00:54:27:806  INFO 27032 --- [http-nio-8084-exec-3] i.seata.tm.api.DefaultGlobalTransaction  : Suspending current transaction, xid = 192.168.37.130:8099:45653078623307726
-00:54:27:807  INFO 27032 --- [http-nio-8084-exec-3] i.seata.tm.api.DefaultGlobalTransaction  : [192.168.37.130:8099:45653078623307726] rollback status: Rollbacked
+00:54:27:806  INFO 27032 --- [http-nio-8084-exec-3] i.seata.tm.api.DefaultGlobalTransaction  : Suspending current transaction, xid = 192.168.37.***:8099:45653078623307726
+00:54:27:807  INFO 27032 --- [http-nio-8084-exec-3] i.seata.tm.api.DefaultGlobalTransaction  : [192.168.37.***:8099:45653078623307726] rollback status: Rollbacked
 00:54:27:895 ERROR 27032 --- [http-nio-8084-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: 库存不足！] with root cause
 
 java.lang.RuntimeException: 库存不足！
@@ -204,18 +204,18 @@ java.lang.RuntimeException: 库存不足！
 00:57:14:610  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [2512f7c4-cc70-46cd-ae6e-73763dba3492] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
 00:57:14:611  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [2512f7c4-cc70-46cd-ae6e-73763dba3492] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
 00:57:14:611  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [2512f7c4-cc70-46cd-ae6e-73763dba3492] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-00:57:14:613  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [2512f7c4-cc70-46cd-ae6e-73763dba3492] Try to connect to server on start up, server: {serverIp = '192.168.37.130', server main port = 8848}
-00:57:14:762  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [2512f7c4-cc70-46cd-ae6e-73763dba3492] Success to connect to server [192.168.37.130:8848] on start up, connectionId = 1739206634640_192.168.37.1_62327
+00:57:14:613  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [2512f7c4-cc70-46cd-ae6e-73763dba3492] Try to connect to server on start up, server: {serverIp = '192.168.37.***', server main port = 8848}
+00:57:14:762  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [2512f7c4-cc70-46cd-ae6e-73763dba3492] Success to connect to server [192.168.37.***:8848] on start up, connectionId = 1739206634640_192.168.37.1_62327
 00:57:14:762  INFO 26420 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2512f7c4-cc70-46cd-ae6e-73763dba3492] Notify connected event to listeners.
 00:57:14:762  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [2512f7c4-cc70-46cd-ae6e-73763dba3492] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
 00:57:14:763  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [2512f7c4-cc70-46cd-ae6e-73763dba3492] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$491/0x00000008014e4ec0
-00:57:14:884  INFO 26420 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.37.130:8099
-00:57:14:969  INFO 26420 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.37.130:8099,msg:< RegisterTMRequest{applicationId='trade-service', transactionServiceGroup='hmall'} >
+00:57:14:884  INFO 26420 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.37.***:8099
+00:57:14:969  INFO 26420 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.37.***:8099,msg:< RegisterTMRequest{applicationId='trade-service', transactionServiceGroup='hmall'} >
 00:57:15:436  INFO 26420 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [2512f7c4-cc70-46cd-ae6e-73763dba3492] Receive server push request, request = NotifySubscriberRequest, requestId = 446
 00:57:15:464  INFO 26420 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [2512f7c4-cc70-46cd-ae6e-73763dba3492] Ack server push request, request = NotifySubscriberRequest, requestId = 446
 00:57:15:510  WARN 26420 --- [NettyClientSelector_TMROLE_1_1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
-00:57:15:579  INFO 26420 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x58088157, L:/192.168.37.1:62329 - R:/192.168.37.130:8099]
-00:57:15:597  INFO 26420 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 153 ms, version:1.5.2,role:TMROLE,channel:[id: 0x58088157, L:/192.168.37.1:62329 - R:/192.168.37.130:8099]
+00:57:15:579  INFO 26420 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x58088157, L:/192.168.37.1:62329 - R:/192.168.37.***:8099]
+00:57:15:597  INFO 26420 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 153 ms, version:1.5.2,role:TMROLE,channel:[id: 0x58088157, L:/192.168.37.1:62329 - R:/192.168.37.***:8099]
 00:57:15:598  INFO 26420 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[trade-service] txServiceGroup[hmall]
 00:57:15:630  INFO 26420 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
 00:57:15:631  INFO 26420 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
@@ -237,11 +237,11 @@ java.lang.RuntimeException: 库存不足！
 00:57:18:738  INFO 26420 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
 00:57:21:086  INFO 26420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
 00:57:22:417  INFO 26420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-00:57:23:025  INFO 26420 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.37.130:8099
-00:57:23:030  INFO 26420 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.37.130:3308/hm-trade
-00:57:23:031  INFO 26420 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.37.130:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.37.130:3308/hm-trade', applicationId='trade-service', transactionServiceGroup='hmall'} >
-00:57:23:143  INFO 26420 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xde338585, L:/192.168.37.1:62348 - R:/192.168.37.130:8099]
-00:57:23:143  INFO 26420 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 102 ms, version:1.5.2,role:RMROLE,channel:[id: 0xde338585, L:/192.168.37.1:62348 - R:/192.168.37.130:8099]
+00:57:23:025  INFO 26420 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.37.***:8099
+00:57:23:030  INFO 26420 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.37.***:3308/hm-trade
+00:57:23:031  INFO 26420 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.37.***:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.37.***:3308/hm-trade', applicationId='trade-service', transactionServiceGroup='hmall'} >
+00:57:23:143  INFO 26420 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xde338585, L:/192.168.37.1:62348 - R:/192.168.37.***:8099]
+00:57:23:143  INFO 26420 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 102 ms, version:1.5.2,role:RMROLE,channel:[id: 0xde338585, L:/192.168.37.1:62348 - R:/192.168.37.***:8099]
 00:57:24:222  INFO 26420 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'pay-service' URL not provided. Will try picking an instance via load-balancing.
 00:57:24:316  INFO 26420 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'cart-service' URL not provided. Will try picking an instance via load-balancing.
 00:57:28:169  INFO 26420 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
@@ -250,8 +250,8 @@ java.lang.RuntimeException: 库存不足！
 00:57:29:497  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
 00:57:29:497  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
 00:57:29:497  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-00:57:29:498  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] Try to connect to server on start up, server: {serverIp = '192.168.37.130', server main port = 8848}
-00:57:29:672  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] Success to connect to server [192.168.37.130:8848] on start up, connectionId = 1739206649521_192.168.37.1_62356
+00:57:29:498  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] Try to connect to server on start up, server: {serverIp = '192.168.37.***', server main port = 8848}
+00:57:29:672  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] Success to connect to server [192.168.37.***:8848] on start up, connectionId = 1739206649521_192.168.37.1_62356
 00:57:29:673  INFO 26420 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] Notify connected event to listeners.
 00:57:29:673  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
 00:57:29:673  INFO 26420 --- [main] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$491/0x00000008014e4ec0
@@ -264,8 +264,8 @@ java.lang.RuntimeException: 库存不足！
 00:57:41:335  INFO 26420 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] Ack server push request, request = NotifySubscriberRequest, requestId = 448
 00:57:41:360  INFO 26420 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] Receive server push request, request = NotifySubscriberRequest, requestId = 449
 00:57:41:361  INFO 26420 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [dc85d987-12a2-4efe-b626-86407e5cbd71] Ack server push request, request = NotifySubscriberRequest, requestId = 449
-00:57:41:538  INFO 26420 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.37.130:5672]
-00:57:41:702  INFO 26420 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#24f8707c:0/SimpleConnection@3986b56 [delegate=amqp://itheima@192.168.37.130:5672/cx, localPort= 62359]
+00:57:41:538  INFO 26420 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.37.***:5672]
+00:57:41:702  INFO 26420 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#24f8707c:0/SimpleConnection@3986b56 [delegate=amqp://itheima@192.168.37.***:5672/cx, localPort= 62359]
 00:57:41:957  INFO 26420 --- [main] c.i.t.TradeServiceApplication            : Started TradeServiceApplication in 41.786 seconds (JVM running for 44.978)
 00:57:41:982  INFO 26420 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=trade-service, group=DEFAULT_GROUP
 00:57:41:983  INFO 26420 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=trade-service-local.yaml, group=DEFAULT_GROUP
@@ -444,18 +444,18 @@ java.lang.RuntimeException: 库存不足！
 01:05:18:073  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [95f3d97a-4d30-499a-8ca4-026f6a4087eb] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
 01:05:18:075  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [95f3d97a-4d30-499a-8ca4-026f6a4087eb] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
 01:05:18:076  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [95f3d97a-4d30-499a-8ca4-026f6a4087eb] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-01:05:18:078  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [95f3d97a-4d30-499a-8ca4-026f6a4087eb] Try to connect to server on start up, server: {serverIp = '192.168.37.130', server main port = 8848}
-01:05:18:268  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [95f3d97a-4d30-499a-8ca4-026f6a4087eb] Success to connect to server [192.168.37.130:8848] on start up, connectionId = 1739207118119_192.168.37.1_62813
+01:05:18:078  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [95f3d97a-4d30-499a-8ca4-026f6a4087eb] Try to connect to server on start up, server: {serverIp = '192.168.37.***', server main port = 8848}
+01:05:18:268  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [95f3d97a-4d30-499a-8ca4-026f6a4087eb] Success to connect to server [192.168.37.***:8848] on start up, connectionId = 1739207118119_192.168.37.1_62813
 01:05:18:269  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [95f3d97a-4d30-499a-8ca4-026f6a4087eb] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
 01:05:18:270  INFO 2784 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [95f3d97a-4d30-499a-8ca4-026f6a4087eb] Notify connected event to listeners.
 01:05:18:271  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [95f3d97a-4d30-499a-8ca4-026f6a4087eb] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$502/0x00000008014e1c38
-01:05:18:557  INFO 2784 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.37.130:8099
-01:05:18:745  INFO 2784 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.37.130:8099,msg:< RegisterTMRequest{applicationId='trade-service', transactionServiceGroup='hmall'} >
+01:05:18:557  INFO 2784 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.37.***:8099
+01:05:18:745  INFO 2784 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.37.***:8099,msg:< RegisterTMRequest{applicationId='trade-service', transactionServiceGroup='hmall'} >
 01:05:18:872  INFO 2784 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [95f3d97a-4d30-499a-8ca4-026f6a4087eb] Receive server push request, request = NotifySubscriberRequest, requestId = 467
 01:05:18:920  INFO 2784 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [95f3d97a-4d30-499a-8ca4-026f6a4087eb] Ack server push request, request = NotifySubscriberRequest, requestId = 467
 01:05:19:267  WARN 2784 --- [NettyClientSelector_TMROLE_1_1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
-01:05:19:350  INFO 2784 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xaf052597, L:/192.168.37.1:62815 - R:/192.168.37.130:8099]
-01:05:19:371  INFO 2784 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 186 ms, version:1.5.2,role:TMROLE,channel:[id: 0xaf052597, L:/192.168.37.1:62815 - R:/192.168.37.130:8099]
+01:05:19:350  INFO 2784 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xaf052597, L:/192.168.37.1:62815 - R:/192.168.37.***:8099]
+01:05:19:371  INFO 2784 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 186 ms, version:1.5.2,role:TMROLE,channel:[id: 0xaf052597, L:/192.168.37.1:62815 - R:/192.168.37.***:8099]
 01:05:19:376  INFO 2784 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[trade-service] txServiceGroup[hmall]
 01:05:19:467  INFO 2784 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
 01:05:19:489  INFO 2784 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
@@ -477,11 +477,11 @@ java.lang.RuntimeException: 库存不足！
 01:05:22:760  INFO 2784 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
 01:05:23:723  INFO 2784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
 01:05:24:531  INFO 2784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-01:05:25:025  INFO 2784 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.37.130:8099
-01:05:25:026  INFO 2784 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.37.130:3308/hm-trade
-01:05:25:028  INFO 2784 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.37.130:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.37.130:3308/hm-trade', applicationId='trade-service', transactionServiceGroup='hmall'} >
-01:05:25:061  INFO 2784 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x24eb31bf, L:/192.168.37.1:62830 - R:/192.168.37.130:8099]
-01:05:25:062  INFO 2784 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 26 ms, version:1.5.2,role:RMROLE,channel:[id: 0x24eb31bf, L:/192.168.37.1:62830 - R:/192.168.37.130:8099]
+01:05:25:025  INFO 2784 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.37.***:8099
+01:05:25:026  INFO 2784 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.37.***:3308/hm-trade
+01:05:25:028  INFO 2784 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.37.***:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.37.***:3308/hm-trade', applicationId='trade-service', transactionServiceGroup='hmall'} >
+01:05:25:061  INFO 2784 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x24eb31bf, L:/192.168.37.1:62830 - R:/192.168.37.***:8099]
+01:05:25:062  INFO 2784 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 26 ms, version:1.5.2,role:RMROLE,channel:[id: 0x24eb31bf, L:/192.168.37.1:62830 - R:/192.168.37.***:8099]
 01:05:25:761  INFO 2784 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'pay-service' URL not provided. Will try picking an instance via load-balancing.
 01:05:33:371  INFO 2784 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'cart-service' URL not provided. Will try picking an instance via load-balancing.
 01:05:36:899  INFO 2784 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
@@ -490,8 +490,8 @@ java.lang.RuntimeException: 库存不足！
 01:05:38:426  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [8fdbe2b7-1f8f-4add-b195-23c7151e7e25] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
 01:05:38:427  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [8fdbe2b7-1f8f-4add-b195-23c7151e7e25] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
 01:05:38:427  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [8fdbe2b7-1f8f-4add-b195-23c7151e7e25] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-01:05:38:430  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [8fdbe2b7-1f8f-4add-b195-23c7151e7e25] Try to connect to server on start up, server: {serverIp = '192.168.37.130', server main port = 8848}
-01:05:38:628  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [8fdbe2b7-1f8f-4add-b195-23c7151e7e25] Success to connect to server [192.168.37.130:8848] on start up, connectionId = 1739207138453_192.168.37.1_62845
+01:05:38:430  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [8fdbe2b7-1f8f-4add-b195-23c7151e7e25] Try to connect to server on start up, server: {serverIp = '192.168.37.***', server main port = 8848}
+01:05:38:628  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [8fdbe2b7-1f8f-4add-b195-23c7151e7e25] Success to connect to server [192.168.37.***:8848] on start up, connectionId = 1739207138453_192.168.37.1_62845
 01:05:38:629  INFO 2784 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [8fdbe2b7-1f8f-4add-b195-23c7151e7e25] Notify connected event to listeners.
 01:05:38:629  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [8fdbe2b7-1f8f-4add-b195-23c7151e7e25] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
 01:05:38:630  INFO 2784 --- [main] com.alibaba.nacos.common.remote.client   : [8fdbe2b7-1f8f-4add-b195-23c7151e7e25] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$502/0x00000008014e1c38
@@ -502,8 +502,8 @@ java.lang.RuntimeException: 库存不足！
 01:05:39:345  INFO 2784 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
 01:05:39:368  INFO 2784 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 01:05:39:457  INFO 2784 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-01:05:39:725  INFO 2784 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.37.130:5672]
-01:05:39:839  INFO 2784 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1ff52a71:0/SimpleConnection@3a22c944 [delegate=amqp://itheima@192.168.37.130:5672/cx, localPort= 62846]
+01:05:39:725  INFO 2784 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.37.***:5672]
+01:05:39:839  INFO 2784 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1ff52a71:0/SimpleConnection@3a22c944 [delegate=amqp://itheima@192.168.37.***:5672/cx, localPort= 62846]
 01:05:40:023  INFO 2784 --- [main] c.i.t.TradeServiceApplication            : Started TradeServiceApplication in 37.241 seconds (JVM running for 42.328)
 01:05:40:042  INFO 2784 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=trade-service, group=DEFAULT_GROUP
 01:05:40:042  INFO 2784 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=trade-service-local.yaml, group=DEFAULT_GROUP
@@ -740,18 +740,18 @@ java.lang.RuntimeException: 库存不足！
 01:19:57:297  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [a58c915a-7ac0-4410-a8cb-720124ff49e0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
 01:19:57:298  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [a58c915a-7ac0-4410-a8cb-720124ff49e0] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
 01:19:57:298  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [a58c915a-7ac0-4410-a8cb-720124ff49e0] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-01:19:57:300  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [a58c915a-7ac0-4410-a8cb-720124ff49e0] Try to connect to server on start up, server: {serverIp = '192.168.37.130', server main port = 8848}
-01:19:57:455  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [a58c915a-7ac0-4410-a8cb-720124ff49e0] Success to connect to server [192.168.37.130:8848] on start up, connectionId = 1739207997331_192.168.37.1_63697
+01:19:57:300  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [a58c915a-7ac0-4410-a8cb-720124ff49e0] Try to connect to server on start up, server: {serverIp = '192.168.37.***', server main port = 8848}
+01:19:57:455  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [a58c915a-7ac0-4410-a8cb-720124ff49e0] Success to connect to server [192.168.37.***:8848] on start up, connectionId = 1739207997331_192.168.37.1_63697
 01:19:57:455  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [a58c915a-7ac0-4410-a8cb-720124ff49e0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
 01:19:57:455  INFO 14884 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a58c915a-7ac0-4410-a8cb-720124ff49e0] Notify connected event to listeners.
 01:19:57:456  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [a58c915a-7ac0-4410-a8cb-720124ff49e0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$502/0x00000008014ef408
-01:19:57:717  INFO 14884 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.37.130:8099
-01:19:57:893  INFO 14884 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.37.130:8099,msg:< RegisterTMRequest{applicationId='trade-service', transactionServiceGroup='hmall'} >
+01:19:57:717  INFO 14884 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.37.***:8099
+01:19:57:893  INFO 14884 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.37.***:8099,msg:< RegisterTMRequest{applicationId='trade-service', transactionServiceGroup='hmall'} >
 01:19:58:066  INFO 14884 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [a58c915a-7ac0-4410-a8cb-720124ff49e0] Receive server push request, request = NotifySubscriberRequest, requestId = 485
 01:19:58:092  INFO 14884 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [a58c915a-7ac0-4410-a8cb-720124ff49e0] Ack server push request, request = NotifySubscriberRequest, requestId = 485
 01:19:58:156  WARN 14884 --- [NettyClientSelector_TMROLE_1_1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
-01:19:58:210  INFO 14884 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x842e8009, L:/192.168.37.1:63698 - R:/192.168.37.130:8099]
-01:19:58:224  INFO 14884 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 114 ms, version:1.5.2,role:TMROLE,channel:[id: 0x842e8009, L:/192.168.37.1:63698 - R:/192.168.37.130:8099]
+01:19:58:210  INFO 14884 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x842e8009, L:/192.168.37.1:63698 - R:/192.168.37.***:8099]
+01:19:58:224  INFO 14884 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 114 ms, version:1.5.2,role:TMROLE,channel:[id: 0x842e8009, L:/192.168.37.1:63698 - R:/192.168.37.***:8099]
 01:19:58:226  INFO 14884 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[trade-service] txServiceGroup[hmall]
 01:19:58:261  INFO 14884 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
 01:19:58:262  INFO 14884 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
@@ -773,11 +773,11 @@ java.lang.RuntimeException: 库存不足！
 01:20:00:454  INFO 14884 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
 01:20:01:552  INFO 14884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
 01:20:02:476  INFO 14884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-01:20:02:903  INFO 14884 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.37.130:8099
-01:20:02:905  INFO 14884 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.37.130:3308/hm-trade
-01:20:02:906  INFO 14884 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.37.130:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.37.130:3308/hm-trade', applicationId='trade-service', transactionServiceGroup='hmall'} >
-01:20:03:021  INFO 14884 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x131b51a8, L:/192.168.37.1:63710 - R:/192.168.37.130:8099]
-01:20:03:021  INFO 14884 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 88 ms, version:1.5.2,role:RMROLE,channel:[id: 0x131b51a8, L:/192.168.37.1:63710 - R:/192.168.37.130:8099]
+01:20:02:903  INFO 14884 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.37.***:8099
+01:20:02:905  INFO 14884 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.37.***:3308/hm-trade
+01:20:02:906  INFO 14884 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.37.***:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.37.***:3308/hm-trade', applicationId='trade-service', transactionServiceGroup='hmall'} >
+01:20:03:021  INFO 14884 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x131b51a8, L:/192.168.37.1:63710 - R:/192.168.37.***:8099]
+01:20:03:021  INFO 14884 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 88 ms, version:1.5.2,role:RMROLE,channel:[id: 0x131b51a8, L:/192.168.37.1:63710 - R:/192.168.37.***:8099]
 01:20:03:649  INFO 14884 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'pay-service' URL not provided. Will try picking an instance via load-balancing.
 01:20:03:741  INFO 14884 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'cart-service' URL not provided. Will try picking an instance via load-balancing.
 01:20:04:123  INFO 14884 --- [main] i.s.s.a.GlobalTransactionScanner         : Bean[com.item.tradeservice.service.impl.OrderServiceImpl$$EnhancerBySpringCGLIB$$850cd12c] with name [orderServiceImpl] would use interceptor [io.seata.spring.annotation.GlobalTransactionalInterceptor]
@@ -787,8 +787,8 @@ java.lang.RuntimeException: 库存不足！
 01:20:06:447  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
 01:20:06:447  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
 01:20:06:447  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-01:20:06:448  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Try to connect to server on start up, server: {serverIp = '192.168.37.130', server main port = 8848}
-01:20:06:584  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Success to connect to server [192.168.37.130:8848] on start up, connectionId = 1739208006468_192.168.37.1_63713
+01:20:06:448  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Try to connect to server on start up, server: {serverIp = '192.168.37.***', server main port = 8848}
+01:20:06:584  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Success to connect to server [192.168.37.***:8848] on start up, connectionId = 1739208006468_192.168.37.1_63713
 01:20:06:584  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
 01:20:06:584  INFO 14884 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Notify connected event to listeners.
 01:20:06:584  INFO 14884 --- [main] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$502/0x00000008014ef408
@@ -799,8 +799,8 @@ java.lang.RuntimeException: 库存不足！
 01:20:07:228  INFO 14884 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
 01:20:07:234  INFO 14884 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 01:20:07:284  INFO 14884 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-01:20:07:456  INFO 14884 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.37.130:5672]
-01:20:07:547  INFO 14884 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6f51d1cc:0/SimpleConnection@62243a7a [delegate=amqp://itheima@192.168.37.130:5672/cx, localPort= 63714]
+01:20:07:456  INFO 14884 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.37.***:5672]
+01:20:07:547  INFO 14884 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6f51d1cc:0/SimpleConnection@62243a7a [delegate=amqp://itheima@192.168.37.***:5672/cx, localPort= 63714]
 01:20:07:717  INFO 14884 --- [main] c.i.t.TradeServiceApplication            : Started TradeServiceApplication in 22.308 seconds (JVM running for 25.249)
 01:20:07:729  INFO 14884 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=trade-service, group=DEFAULT_GROUP
 01:20:07:731  INFO 14884 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=trade-service-local.yaml, group=DEFAULT_GROUP
@@ -809,22 +809,22 @@ java.lang.RuntimeException: 库存不足！
 01:21:56:333  INFO 14884 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 01:21:56:489  INFO 14884 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 156 ms
 01:21:57:114  INFO 14884 --- [http-nio-8084-exec-1] io.seata.tm.TransactionManagerHolder     : TransactionManager Singleton io.seata.tm.DefaultTransactionManager@13324efa
-01:21:57:171  INFO 14884 --- [http-nio-8084-exec-1] i.seata.tm.api.DefaultGlobalTransaction  : Begin new global transaction [192.168.37.130:8099:45653078623307871]
+01:21:57:171  INFO 14884 --- [http-nio-8084-exec-1] i.seata.tm.api.DefaultGlobalTransaction  : Begin new global transaction [192.168.37.***:8099:45653078623307871]
 01:21:58:800  INFO 14884 --- [nacos-grpc-client-executor-34] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Receive server push request, request = NotifySubscriberRequest, requestId = 488
 01:21:58:801  INFO 14884 --- [nacos-grpc-client-executor-34] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Ack server push request, request = NotifySubscriberRequest, requestId = 488
 01:22:02:456  WARN 14884 --- [http-nio-8084-exec-1] ServiceLoader$InnerEnhancedServiceLoader : Load [io.seata.rm.datasource.undo.parser.ProtostuffUndoLogParser] class fail. io/protostuff/runtime/IdStrategy
 01:22:03:313  INFO 14884 --- [nacos-grpc-client-executor-37] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Receive server push request, request = NotifySubscriberRequest, requestId = 489
 01:22:03:315  INFO 14884 --- [nacos-grpc-client-executor-37] com.alibaba.nacos.common.remote.client   : [0bf064f6-bfc1-4b1a-88a6-c442a2d4d50d] Ack server push request, request = NotifySubscriberRequest, requestId = 489
-01:22:15:311  INFO 14884 --- [rpcDispatch_RMROLE_1_1_16] i.s.c.r.p.c.RmBranchRollbackProcessor    : rm handle branch rollback process:xid=192.168.37.130:8099:45653078623307871,branchId=45653078623307881,branchType=AT,resourceId=jdbc:mysql://192.168.37.130:3308/hm-trade,applicationData={"autoCommit":false,"skipCheckLock":true}
-01:22:15:318  INFO 14884 --- [rpcDispatch_RMROLE_1_1_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacking: 192.168.37.130:8099:45653078623307871 45653078623307881 jdbc:mysql://192.168.37.130:3308/hm-trade
-01:22:15:503  INFO 14884 --- [rpcDispatch_RMROLE_1_1_16] i.s.r.d.undo.AbstractUndoLogManager      : xid 192.168.37.130:8099:45653078623307871 branch 45653078623307881, undo_log deleted with GlobalFinished
+01:22:15:311  INFO 14884 --- [rpcDispatch_RMROLE_1_1_16] i.s.c.r.p.c.RmBranchRollbackProcessor    : rm handle branch rollback process:xid=192.168.37.***:8099:45653078623307871,branchId=45653078623307881,branchType=AT,resourceId=jdbc:mysql://192.168.37.***:3308/hm-trade,applicationData={"autoCommit":false,"skipCheckLock":true}
+01:22:15:318  INFO 14884 --- [rpcDispatch_RMROLE_1_1_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacking: 192.168.37.***:8099:45653078623307871 45653078623307881 jdbc:mysql://192.168.37.***:3308/hm-trade
+01:22:15:503  INFO 14884 --- [rpcDispatch_RMROLE_1_1_16] i.s.r.d.undo.AbstractUndoLogManager      : xid 192.168.37.***:8099:45653078623307871 branch 45653078623307881, undo_log deleted with GlobalFinished
 01:22:15:507  INFO 14884 --- [rpcDispatch_RMROLE_1_1_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacked result: PhaseTwo_Rollbacked
-01:22:15:526  INFO 14884 --- [rpcDispatch_RMROLE_1_2_16] i.s.c.r.p.c.RmBranchRollbackProcessor    : rm handle branch rollback process:xid=192.168.37.130:8099:45653078623307871,branchId=45653078623307878,branchType=AT,resourceId=jdbc:mysql://192.168.37.130:3308/hm-trade,applicationData={"skipCheckLock":true}
-01:22:15:527  INFO 14884 --- [rpcDispatch_RMROLE_1_2_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacking: 192.168.37.130:8099:45653078623307871 45653078623307878 jdbc:mysql://192.168.37.130:3308/hm-trade
-01:22:15:541  INFO 14884 --- [rpcDispatch_RMROLE_1_2_16] i.s.r.d.undo.AbstractUndoLogManager      : xid 192.168.37.130:8099:45653078623307871 branch 45653078623307878, undo_log deleted with GlobalFinished
+01:22:15:526  INFO 14884 --- [rpcDispatch_RMROLE_1_2_16] i.s.c.r.p.c.RmBranchRollbackProcessor    : rm handle branch rollback process:xid=192.168.37.***:8099:45653078623307871,branchId=45653078623307878,branchType=AT,resourceId=jdbc:mysql://192.168.37.***:3308/hm-trade,applicationData={"skipCheckLock":true}
+01:22:15:527  INFO 14884 --- [rpcDispatch_RMROLE_1_2_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacking: 192.168.37.***:8099:45653078623307871 45653078623307878 jdbc:mysql://192.168.37.***:3308/hm-trade
+01:22:15:541  INFO 14884 --- [rpcDispatch_RMROLE_1_2_16] i.s.r.d.undo.AbstractUndoLogManager      : xid 192.168.37.***:8099:45653078623307871 branch 45653078623307878, undo_log deleted with GlobalFinished
 01:22:15:542  INFO 14884 --- [rpcDispatch_RMROLE_1_2_16] io.seata.rm.AbstractRMHandler            : Branch Rollbacked result: PhaseTwo_Rollbacked
-01:22:15:552  INFO 14884 --- [http-nio-8084-exec-1] i.seata.tm.api.DefaultGlobalTransaction  : Suspending current transaction, xid = 192.168.37.130:8099:45653078623307871
-01:22:15:554  INFO 14884 --- [http-nio-8084-exec-1] i.seata.tm.api.DefaultGlobalTransaction  : [192.168.37.130:8099:45653078623307871] rollback status: Rollbacked
+01:22:15:552  INFO 14884 --- [http-nio-8084-exec-1] i.seata.tm.api.DefaultGlobalTransaction  : Suspending current transaction, xid = 192.168.37.***:8099:45653078623307871
+01:22:15:554  INFO 14884 --- [http-nio-8084-exec-1] i.seata.tm.api.DefaultGlobalTransaction  : [192.168.37.***:8099:45653078623307871] rollback status: Rollbacked
 01:22:15:631 ERROR 14884 --- [http-nio-8084-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: 库存不足！] with root cause
 
 java.lang.RuntimeException: 库存不足！

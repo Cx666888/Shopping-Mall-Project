@@ -12,7 +12,7 @@ public class EsConnectConfig {
     public static void connect(ElasticsearchTask task) throws IOException {
         //建立连接
         RestHighLevelClient restHighLevelClient= new RestHighLevelClient(RestClient.builder(
-                HttpHost.create("http://192.168.37.130:9100")
+                HttpHost.create("http://192.168.37.***:9100")
         ));
 task.doSomething(restHighLevelClient);
         try {

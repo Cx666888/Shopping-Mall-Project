@@ -3,7 +3,7 @@ server:
 # keytool -genkeypair -alias hmall -keyalg RSA -keypass hmall123 -keystore hmall.jks -storepass hmall123
 spring:
     rabbitmq:
-      host: 192.168.37.130 # 你的虚拟机IP
+      host: 192.168.37.*** # 你的虚拟机IP
       port: 5672 # 端口
       virtual-host: cx # 虚拟主机
       username: itheima # 用户名
